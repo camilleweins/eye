@@ -1,0 +1,29 @@
+body {margin: auto;}
+
+h1 {
+	font-family: "Roboto";
+	color: black;
+}
+
+svg {
+	margin: 0;
+	width: 65vw;
+}
+
+svg:hover {
+	cursor: pointer;
+	-webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         1.5s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
